@@ -20,7 +20,7 @@ typedef enum omp_sched_t
   omp_sched_auto = 4
 }
 
-* 	MCM de 24 y 69 = 192 
+* 	MCM de 24 y 69 = 192
 */
 main(int argc, char **argv) {
 
@@ -34,7 +34,7 @@ main(int argc, char **argv) {
 	}
 
 	unsigned int N = atoi(argv[1]);
-	
+
 	double *M1, *M2, *M3;
 	M1 = (double*) malloc(N*N*sizeof(double));// malloc necesita el tamaño en bytes
 	M2 = (double*) malloc(N*N*sizeof(double)); //si no hay espacio suficiente malloc devuelve NULL
@@ -63,14 +63,14 @@ main(int argc, char **argv) {
 				M3[i*N+j]+=M1[i*N+k]*M2[k*N+j];
 	}
 	clock_gettime(CLOCK_REALTIME,&cgt2);
-	
+
 	ncgt=(double) (cgt2.tv_sec-cgt1.tv_sec)+ (double) ((cgt2.tv_nsec-cgt1.tv_nsec)/(1.e+9));
 
 
 	// Resultados
 	printf("Tiempo de ejecución= %2.11f\n",ncgt);
 	printf("Primer componente= %2.3f \n",M3[0] );
-	printf("Ultimo componente= %2.3f \n",M3[N*N-1] );	
+	printf("Ultimo componente= %2.3f \n",M3[N*N-1] );
 
 	// Visualiza las matrices si no son muy grandes
 	// Se recomienda redirigir la salida a un fichero.
@@ -89,7 +89,7 @@ main(int argc, char **argv) {
 			printf(" |\n");
 		}
 		printf(" |\n");
-		
+
 		printf("\n\t V2 \n| ");
 		for(i=0; i<N; i++){
 			for(j=0; j<N;j++)
@@ -102,5 +102,5 @@ main(int argc, char **argv) {
 	free(M1); // libera el espacio reservado para v1
 	free(M2); // libera el espacio reservado para v2
 	free(M3); // libera el espacio reservado para v3
-	
+
 }
