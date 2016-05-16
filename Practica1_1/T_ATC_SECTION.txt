@@ -1,0 +1,32 @@
+Id. usuario del trabajo: C3estudiante13
+Id. del trabajo: 33421.atcgrid
+Nombre del trabajo especificado por usuario: SumasOMP2
+Nodo que ejecuta qsub: atcgrid
+Directorio en el que se ha ejecutado qsub: /home/C3estudiante13/hello
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+Tiempo(seg.):0.005695588	 / Tamaño Vectores:16384
+Tiempo(seg.):0.000130200	 / Tamaño Vectores:32768
+Tiempo(seg.):0.000257377	 / Tamaño Vectores:65536
+Tiempo(seg.):0.000560542	 / Tamaño Vectores:131072
+Tiempo(seg.):0.001095353	 / Tamaño Vectores:262144
+Tiempo(seg.):0.004828924	 / Tamaño Vectores:524288
+Tiempo(seg.):0.006298008	 / Tamaño Vectores:1048576
+Tiempo(seg.):0.008646455	 / Tamaño Vectores:2097152
+Tiempo(seg.):0.014940373	 / Tamaño Vectores:4194304
+Tiempo(seg.):0.026884592	 / Tamaño Vectores:8388608
+Tiempo(seg.):0.052027259	 / Tamaño Vectores:16777216
+Tiempo(seg.):0.112880543	 / Tamaño Vectores:33554432
+Tiempo(seg.):0.090991759	 / Tamaño Vectores:33554432

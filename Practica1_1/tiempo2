@@ -1,0 +1,24 @@
+tamano 16384
+Tiempo(seg.):0.000882708	 / Tamaño Vectores:16384
+tamano 32768
+Tiempo(seg.):0.000335236	 / Tamaño Vectores:32768
+tamano 65536
+Tiempo(seg.):0.000677035	 / Tamaño Vectores:65536
+tamano 131072
+Tiempo(seg.):0.000505278	 / Tamaño Vectores:131072
+tamano 262144
+Tiempo(seg.):0.000987031	 / Tamaño Vectores:262144
+tamano 524288
+Tiempo(seg.):0.004792929	 / Tamaño Vectores:524288
+tamano 1048576
+Tiempo(seg.):0.002658425	 / Tamaño Vectores:1048576
+tamano 2097152
+Tiempo(seg.):0.006601333	 / Tamaño Vectores:2097152
+tamano 4194304
+Tiempo(seg.):0.012781238	 / Tamaño Vectores:4194304
+tamano 8388608
+Tiempo(seg.):0.022983799	 / Tamaño Vectores:8388608
+tamano 16777216
+Tiempo(seg.):0.039648724	 / Tamaño Vectores:16777216
+tamano 33554432
+Tiempo(seg.):0.064772528	 / Tamaño Vectores:33554432

@@ -1,0 +1,31 @@
+Id. usuario del trabajo: C3estudiante13
+Id. del trabajo: 25252.atcgrid
+Nombre del trabajo especificado por usuario: helloomp
+Nodo que ejecuta qsub: atcgrid
+Cola: ac
+Nodos asignados al trabajo:
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+atcgrid1
+No de threads inicial: 12
+
+Para 12 threads:
+valor de la variable: /home/C3estudiante13/hello
+
+Para 6 threads:
+valor de la variable: /home/C3estudiante13/hello
+
+Para 3 threads:
+valor de la variable: /home/C3estudiante13/hello
+
+Para 1 threads:
+valor de la variable: /home/C3estudiante13/hello
