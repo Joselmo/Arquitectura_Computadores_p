@@ -1,11 +1,11 @@
 #!/bin/bash
-#Se asigna al trabajo el nombre pmtv-OpenMP
-#PBS -N pmtv-OpenMP
+#Se asigna al trabajo el nombre pmm-OpenMP
+#PBS -N pmm-OpenMP
 #Se asigna al trabajo la cola ac
 #PBS -q ac
 
-#Se ejecuta pmtv-OpenMP, que está en el directorio en el que se ha ejecutado qsub,
-#             N  SC CH
+#Se ejecuta pmm-OpenMP, que está en el directorio en el que se ha ejecutado qsub,
+# 
 export OMP_NUM_THREADS=2
 echo "threads = 2 - 1"
 ./pmm-OpenMP 576

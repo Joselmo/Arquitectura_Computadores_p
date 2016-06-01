@@ -1,0 +1,5 @@
+#!/bin/bash
+./figura_1 "original" > tiempos_figura1
+./figura_1 "original" > tiempos_figura1
+./figura_1 "original" > tiempos_figura1
+cat tiempos_figura1

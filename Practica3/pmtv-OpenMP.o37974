@@ -1,0 +1,48 @@
+static - default
+Asignado run-sched-var=(1,0)
+Tiempo de ejecución= 0.08452796500
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+static - 1
+Asignado run-sched-var=(1,1)
+Tiempo de ejecución= 0.09086678700
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+static - 64
+Asignado run-sched-var=(1,64)
+Tiempo de ejecución= 0.08825790800
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+----------------------------------------
+dynamic - default
+Asignado run-sched-var=(2,1)
+Tiempo de ejecución= 0.09025187500
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+dynamic - 1
+Asignado run-sched-var=(2,1)
+Tiempo de ejecución= 0.08993644200
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+dynamic - 64
+Asignado run-sched-var=(2,64)
+Tiempo de ejecución= 0.08876919800
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+-----------------------------------------
+guided - default
+Asignado run-sched-var=(3,1)
+Tiempo de ejecución= 0.09054618800
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+guided - 1
+Asignado run-sched-var=(3,1)
+Tiempo de ejecución= 0.07955836900
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+guided - 64
+Asignado run-sched-var=(3,64)
+Tiempo de ejecución= 0.08903223400
+Primer componente= 1.000 
+Ultimo componente= 4299966253440.000 
+fin correctamente
